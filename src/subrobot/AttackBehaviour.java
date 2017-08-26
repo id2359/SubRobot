@@ -2,7 +2,7 @@ package subrobot;
 
 import lejos.robotics.subsumption.Behavior;
 
-public class AttackBehaviour implements Behavior {
+public class AttackBehaviour extends SimpleRobot implements Behavior {
 
 	@Override
 	public boolean takeControl() {

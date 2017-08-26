@@ -3,7 +3,7 @@ import lejos.nxt.Button;
 import lejos.nxt.Motor;
 import lejos.nxt.NXTRegulatedMotor;
 
-public class SimpleRobot {
+public class SimpleRobot implements IRobot {
 	NXTRegulatedMotor leftMotor;
 	NXTRegulatedMotor rightMotor;
 	Button nose;
@@ -23,11 +23,19 @@ public class SimpleRobot {
 		return nose.isDown();
 	}
 	
-	protected void run() {
+	public void run() {
 		leftMotor.setSpeed(720);
 		rightMotor.setSpeed(720);
 		leftMotor.forward();
 		rightMotor.forward();
 	}
+
+	@Override
+	public void turnAround() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	protexc
 
 }
