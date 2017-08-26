@@ -31,11 +31,15 @@ public class SimpleRobot implements IRobot {
 	}
 
 	@Override
+	public void walk() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
 	public void turnAround() {
 		// TODO Auto-generated method stub
 		
 	}
-	
-	protexc
 
 }
