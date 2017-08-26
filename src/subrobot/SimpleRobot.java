@@ -3,14 +3,14 @@ import lejos.nxt.Button;
 import lejos.nxt.Motor;
 import lejos.nxt.NXTRegulatedMotor;
 
-public class RabbitRobot {
-	NXTRegulatedMotor leftLeg;
-	NXTRegulatedMotor rightLeg;
+public class SimpleRobot {
+	NXTRegulatedMotor leftMotor;
+	NXTRegulatedMotor rightMotor;
 	Button nose;
 	
-	RabbitRobot() {
-		leftLeg = Motor.A;
-		rightLeg = Motor.C;
+	SimpleRobot() {
+		leftMotor = Motor.A;
+		rightMotor = Motor.C;
 	}
 	
 	public static void main(String[] args) {
