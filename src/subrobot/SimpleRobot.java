@@ -11,6 +11,7 @@ public class SimpleRobot {
 	SimpleRobot() {
 		leftMotor = Motor.A;
 		rightMotor = Motor.C;
+		
 	}
 	
 	public static void main(String[] args) {
@@ -19,7 +20,14 @@ public class SimpleRobot {
 	
 	protected boolean noseBumped() {
 		// TODO Auto-generated method stub
-		return false;
+		return nose.isDown();
+	}
+	
+	protected void run() {
+		leftMotor.setSpeed(720);
+		rightMotor.setSpeed(720);
+		leftMotor.forward();
+		rightMotor.forward();
 	}
 
 }
