@@ -1,6 +1,6 @@
 package subrobot;
 import lejos.robotics.subsumption.Behavior;
-public class AvoidWallBehaviour extends RabbitRobot implements Behavior {
+public class AvoidWallBehaviour extends SimpleRobot implements Behavior {
 
 	@Override
 	public boolean takeControl() {
