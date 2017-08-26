@@ -42,4 +42,10 @@ public class SimpleRobot implements IRobot {
 		
 	}
 
+	@Override
+	public boolean isThreatened() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
