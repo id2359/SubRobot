@@ -2,7 +2,7 @@ package subrobot;
 
 import lejos.robotics.subsumption.Behavior;
 
-public class MateBahaviour implements Behavior {
+public class MateBehaviour implements Behavior {
 
 	@Override
 	public boolean takeControl() {

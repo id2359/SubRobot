@@ -13,10 +13,13 @@ public class RabbitRobot {
 		rightLeg = Motor.C;
 	}
 	
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+	}
+	
+	protected boolean noseBumped() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
